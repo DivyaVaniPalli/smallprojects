@@ -35,3 +35,4 @@ for i in range(len(day)):
    
 country =Select(driver.find_element(By.XPATH, "//select[@id= 'country']"))
 country.select_by_visible_text("Australia")
+driver.quit()
